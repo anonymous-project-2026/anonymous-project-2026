@@ -200,7 +200,7 @@ The following table lists the code obfuscation techniques:
 
 *Comparison of OT-based and GNN-based graph similarity scoring. The OT-based method maintains clearer separation between positive and negative pairs.*
 
-### Obfuscation Robustness Evaluation
+### Obfuscation Robustness Result
 
 To evaluate the robustness of our approach against code obfuscation techniques, we conducted comprehensive experiments on both Android and HarmonyOS platforms. We tested the identification performance under various single obfuscation techniques as well as their combinations.
 
