@@ -210,6 +210,18 @@ The following table lists the code obfuscation techniques:
 </tbody>
 </table>
 
+### Obfuscation Prevalence Study
+
+To empirically assess the prevalence of code obfuscation in real-world Android applications, we conducted two complementary studies and applied consistent criteria to identify obfuscated code.
+
+**Identification Criteria**
+
+An application is considered obfuscated if its compiled class or method names exhibited meaningless or shortened identifiers (e.g., "a", "b", "aa", "bb") that deviated from semantic naming conventions. For example, a non-obfuscated project typically contains descriptive identifiers such as `com.shoppingcart.payment.ConfirmOrder` or `calculateTotalPrice()`, whereas an obfuscated counterpart may use class and method names like "a.a.a.a" or "a()", making semantic interpretation and reverse engineering more difficult.
+
+**Study Results**
+
+In the first study, 325 apps were randomly sampled from a commercial app market, of which 123 displayed such obfuscation artifacts. Representative obfuscated clusters included applications such as "Baby Coloring Magic House" and "Baby Math Learning". In the second study, 18,075 apps from the AndroZoo collection were examined to characterize obfuscation patterns in a large-scale public dataset. In total, 18,400 apps were inspected across both datasets, and 1,190 projects were found to contain observable obfuscation features. These findings confirm that code obfuscation is widespread in both real-world market samples and large-scale public repositories, underscoring its prevalence in the Android ecosystem.
+
 ### Graph Similarity
 
 ![Graph Similarity Comparison](images/model_vs_ot_scatter.svg)
