@@ -7,7 +7,6 @@ This repository contains the supplementary materials and code implementation for
 - **Feature/**: Feature extraction modules including icon, Smali opcode, native library (SO), and API call graph extraction
 - **traintest/**: Training and testing modules for similarity detection, including CNN models, optimal transport utilities, and multi-feature fusion
 - **images/**: Figures and diagrams
-- **image/SO_Processing_Output_Example/**: Example output for SO processing
 
 ## Quick Start
 
